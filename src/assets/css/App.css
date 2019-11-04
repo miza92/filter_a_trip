@@ -1,0 +1,134 @@
+.App {
+  margin: 0;
+}
+.Header {
+  background-color: #2E86C1;
+  height: 15vh;
+  margin:0!important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif, Arial;
+}
+.Footer {
+  color: #7C7C7C;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #141414;
+  font-size: 62.5%; 
+  bottom: 0;
+  width: 100%;
+  height: 35vh;
+}
+.Footer h2 {
+  color: #2E86C1;
+  font-family: "Raleway", sans-serif, Arial;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+#contact li {
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+#contact img {
+  margin-right: 5px;
+}
+address {
+  font-style: normal;
+  margin-bottom: 0rem;
+}
+.Footer_middle {
+  position: relative;
+}
+.Footer_text {
+  font-size: 1rem;
+  text-align: center;
+  position: relative;
+  top: 35px;
+}
+#social_title {
+  margin-bottom: 10px;
+}
+#social {
+  display: flex;
+  justify-content: space-around;
+}
+#social li {
+  margin-left: 2px;
+  margin-right: 2px;
+  list-style: none;
+}
+.logo1 {
+  border-radius: 40px;
+}
+.BodyData {
+  margin-bottom: 35vh;
+  margin-top: 15vh;
+  align-items: center;
+  justify-content: center;
+}
+#departureStation, #arrivalStation, #return-time, #toGo-time {
+  font-size: 10px;
+  margin-left: 90px;
+}
+.SearchData {
+  font-size: 12px;
+  margin-left: 50px;
+}
+.SearchForm1, .SearchForm2, .ToGoTrip, .ReturnTrip {
+  display: flex;
+  justify-content: flex-start;
+  border: thick double #32a1ce;
+  margin: 5px 70px 0 70px;
+}
+.Title {
+  margin-left: 20px;
+  font-size: 30px;
+  color:#2E86C1;
+}
+.SearchData {
+  font-size: 10px;
+  margin-left: 200px;
+}
+label {
+  font-size: 11px;
+  margin-left: 100px;
+}
+img.ScMobile {
+  width: 6em;
+  margin-left: 20px;
+}
+.Title2 {
+  margin-left: 60px;
+  font-size: 20px;
+}
+.bot {
+  margin-top: 20px;
+  margin-left: 80px;
+  font-size: 10px;
+}
+@media only screen and (max-width: 580px) {
+  body {
+    background-image: url("../images/background1.svg");
+  }
+  .BodyData {
+    visibility: hidden;
+  }
+  img.ScMobile {
+    width: 6em;
+    margin-left: 60px;
+    margin-bottom: 70px;
+  }
+  .Title2 {
+    margin-left: 60px;
+    font-size: 20px;
+    color:#2E86C1;
+  }
+}
